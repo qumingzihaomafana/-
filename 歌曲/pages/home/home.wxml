@@ -1,0 +1,7 @@
+<!--pages/home/home.wxml-->
+<!--pages/songinformation/songinformation.wxml-->
+<text>歌曲名称：{{music.dataName}}</text>
+<text>歌手：{{music.name}}</text>
+<text>封面：</text><image src="{{music.image}}" style="width:100px;height:100px;"></image>
+<text>歌曲地址：{{music.dataUrl}}</text>
+<button bindtap="download">下载</button>
